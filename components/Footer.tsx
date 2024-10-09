@@ -16,8 +16,10 @@ export default function Footer({ className }: FooterProps) {
       )}
     >
       <span>
-        Powered by <BrandLink /> &amp; writed nextjs by{" "}
-        <BrandLink href="https://www.luas.kr">luasenvy</BrandLink>
+        Powered by <BrandLink className="font-semibold" /> &amp; writed nextjs by{" "}
+        <BrandLink className="font-semibold" href="https://www.luas.kr">
+          luasenvy
+        </BrandLink>
       </span>
       <span>
         &copy;{new Date().getFullYear()} {config.author} all rights reserved
