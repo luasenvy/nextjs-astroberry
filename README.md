@@ -1,15 +1,19 @@
-# astroberry
+# nextjs-astroberry
 
-An accessible, SEO-friendly, beautiful blog theme for Astro, built with TailwindCSS.
+[Astroberry Theme](https://github.com/boluoim/astroberry) for [Next.js](https://nextjs.org/)<sub>(14+ App Router)</sub>
 
-## How to use
+## Tested Environment
 
-Just try this command in your terminal:
+- debian - bookworm
+- nodejs - v20.17.0
+- npm - 10.8.3
 
-```
-pnpm create astro@latest --template boluoim/astroberry
-```
+## npm commands
 
-Or you can deploy to Vercel for a quick start:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fboluoim%2Fastroberry)
+| Command                | Action                                             |
+| :--------------------- | :------------------------------------------------- |
+| `npm install`          | Installs dependencies                              |
+| `npm run dev`          | Starts local dev server at `localhost:3000`        |
+| `npm run build`        | `rm -rf .next && next build`                       |
+| `npm run start`        | `next start`                                       |
+| `npm run lint`         | `next lint`                                        |
